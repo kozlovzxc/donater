@@ -1,0 +1,14 @@
+@import './common.scss';
+
+.button {
+  @extend %bordered;
+  padding: $distance-medium $distance-large;
+  background-color: $color-text-white;
+  border-radius: $border-radius;
+
+  &__action {
+    color: $color-text-white;
+    background-color: $color-action;
+    border: none;
+  }
+}

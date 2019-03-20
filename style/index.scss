@@ -1,5 +1,7 @@
 @import './common.scss';
+@import './typography.scss';
 @import './alert.scss';
+@import './progress.scss';
 
 .container {
   display: flex;
@@ -8,8 +10,14 @@
   min-height: 100vh;
 }
 
-.countdown,
-.information,
-.information_item {
+.countdown {
   margin-bottom: $distance-medium;
+}
+
+.details {
+  &_content {
+    @extend %bordered;
+    padding: $distance-large;
+    border-top: 0px;
+  }
 }

@@ -1,0 +1,11 @@
+@import './common.scss';
+
+.progress {
+  @extend %bordered;
+
+  &_bar {
+    width: 74%;
+    height: $distance-medium;
+    background-color: $color-attention;
+  }
+}

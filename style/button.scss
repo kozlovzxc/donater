@@ -6,7 +6,8 @@
 
   &__action {
     color: $color-text-white;
+    font-size: $font-size-large;
     background-color: $color-action;
-    border-color: $color-action; // to match height
+    border-color: $color-action;
   }
 }

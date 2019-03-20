@@ -1,18 +1,21 @@
 .input {
   @extend %bordered;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   padding: $distance-medium $distance-extra-large;
+  padding-left: $distance-small;
   border-radius: $border-radius;
   
   &_actual-input {
     max-width: 100%;
     padding: 0px;
     color: $color-secondary-dark;
+    font-size: $font-size-large;
     border: none;
   }
 
   &_dollar {
     margin-right: $distance-small;
+    font-size: $font-size-large;
   }
 }

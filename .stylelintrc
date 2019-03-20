@@ -20,7 +20,6 @@
         "function-url-quotes": "always",
         "comment-whitespace-inside": "always",
         "comment-empty-line-before": "always",
-        "rule-empty-line-before": "always-multi-line",
         "media-feature-range-operator-space-before": "always",
         "media-feature-range-operator-space-after": "always",
         "media-feature-parentheses-space-inside": "never",

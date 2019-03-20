@@ -1,8 +1,15 @@
 @import './common.scss';
+@import './alert.scss';
 
 .container {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.countdown,
+.information,
+.information_item {
+  margin-bottom: $distance-medium;
 }

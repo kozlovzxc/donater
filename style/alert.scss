@@ -1,0 +1,26 @@
+@import './common.scss';
+
+.alert {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  margin-bottom: $distance-medium;
+  color: $color-text-white;
+  font-size: $font-size-medium;
+  background-color: $color-secondary-dark;
+  border-radius: 4px;
+}
+
+.alert::after{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 90%;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  border-width: 12px;
+  border-top-color: $color-secondary-dark;
+}

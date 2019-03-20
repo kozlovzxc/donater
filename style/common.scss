@@ -18,6 +18,7 @@ $distance-large: 30px;
 
 
 %bordered {
+  box-sizing: border-box;
   border: 2px solid $color-secondary-light;
 }
 

@@ -1,0 +1,5 @@
+.input {
+  @extend %bordered;
+  padding: $distance-medium $distance-large;
+  border-radius: $border-radius;
+}

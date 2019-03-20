@@ -17,12 +17,25 @@ $distance-medium: 20px;
 $distance-large: 30px;
 $distance-extra-large: 40px;
 
+$media-tablet: 768px;
+
 %bordered {
   box-sizing: border-box;
   border: 2px solid $color-secondary-light;
 }
 
+@mixin media-tablet {
+  @media (min-width: #{$media-tablet}) {
+    @content;
+  }
+}
+
 * {
   color: $color-text;
   font-size: $font-size-medium;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
 }

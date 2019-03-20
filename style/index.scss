@@ -17,6 +17,8 @@
 }
 
 .details {
+  max-width: 500px;
+  
   &_content {
     @extend %bordered;
     padding: $distance-large;

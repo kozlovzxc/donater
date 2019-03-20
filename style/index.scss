@@ -18,10 +18,29 @@
 
 .details {
   max-width: 500px;
+  margin-bottom: $distance-large;
   
   &_content {
     @extend %bordered;
     padding: $distance-large;
     border-top: 0px;
   }
+
+  &_item {
+    margin-bottom: $distance-large;
+  }
+
+  &_input {
+    width: 200px;
+    margin-right: $distance-medium;
+  }
+
+  &_button {
+    width: 200px;
+  }
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
 }

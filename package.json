@@ -5,8 +5,8 @@
     "stylelint-config-rational-order": "^0.0.4"
   },
   "scripts": {
-    "build": "sass style:build",
-    "build:dev": "sass --watch style:build",
+    "build": "sass style/index.scss build/index.css",
+    "build:dev": "sass --watch style/index.scss build/index.css",
     "lint": "stylelint style/*"
   }
 }
